@@ -6,6 +6,30 @@ The code of the following paper will be released in this repository:
 [**Membership Inference on Text-to-image Diffusion Models via Conditional Likelihood Discrepancy**](https://arxiv.org/abs/2405.14800) **(NeurIPS 2024)**.
 
 
+## Usage
+
+1. **Fine-tuning Target and Shadow Models**
+   - Use `ft_mia.sh` script to fine-tune the target and shadow models on two different training sets.
+
+2. **Performing Membership Inference**
+   - Utilize the following scripts to conduct membership inference on the fine-tuned models:
+     - [ ]  `mia_Loss.py` 
+     - [ ]  `mia_pfami.py`
+     - [ ]  `mia_SEC_PIA.py`
+     - [x]  `mia_CLiD_impt.py` (or `mia_CLiD_clip.py`): CLiD with the reduction methods of _Importance clipping_ and _Simply Clipping_ 
+
+3. **Evaluation**
+   - Use the `cal_xx.py` functions to compute the metrics of the following methods:
+     - Baselines: `cal_baselines.py`
+     - Clidth: `cal_clid_th.py`
+     - Clidvec: `cal_clid_xgb.py`
+     
+4. **Validation results with MS-COCO Dataset under real-world training settings**:
+   - We additionally provide the intermediate results of the MS-COCO dataset in Sec. 4.2 for validation.
+   - These results are obtained under real-world training settings.
+
+
+
 ## Citation
 If you find this project useful in your research, please consider citing our paper:
 ```
