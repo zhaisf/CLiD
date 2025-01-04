@@ -6,10 +6,10 @@ The code of the following paper will be released in this repository:
 [**Membership Inference on Text-to-image Diffusion Models via Conditional Likelihood Discrepancy**](https://arxiv.org/abs/2405.14800) **(NeurIPS 2024)**.
 
 
-## Usage
+## Usage - Finetuning Settting
 
 1. **Fine-tuning Target and Shadow Models**
-   - Use `ft_mia.sh` script to fine-tune the target and shadow models on two different training sets.
+   - Use `ft_mia.sh` script to fine-tune the target and shadow models on two different training sets ([COCO_MIA_Finetuning Data](https://huggingface.co/datasets/zsf/COCO_MIA_ori_split1)).
 
 2. **Performing Membership Inference**
    - Utilize the following scripts to conduct membership inference on the fine-tuned models:
@@ -27,6 +27,10 @@ The code of the following paper will be released in this repository:
 4. **Validation results with MS-COCO Dataset under real-world training settings**:
    - We additionally provide the intermediate results of the MS-COCO dataset in Sec. 4.2 for validation.
    - These results are obtained under real-world training settings.
+
+
+##  Usage - Pretraining Setting
+- [ ] To be added.
 
 
 
