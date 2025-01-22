@@ -5,7 +5,7 @@ export TRAIN_DIR="xxxxxxxxxxx"
 
 CUDA_VISIBLE_DEVICES=0 nohup accelerate launch  --mixed_precision="fp16" train_text_to_image.py \
   --pretrained_model_name_or_path=$MODEL_NAME \
-  --train_data_dir=$dataset_name \
+  --train_data_dir=$TRAIN_DIR \
   --use_ema \
   --resolution=512  \
   --train_batch_size=1 \
