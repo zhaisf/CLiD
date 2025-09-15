@@ -38,9 +38,11 @@ The code of the following paper will be released in this repository:
 If you find this project useful in your research, please consider citing our paper:
 ```
 @article{zhai2024membership,
-  title={Membership Inference on Text-to-Image Diffusion Models via Conditional Likelihood Discrepancy},
+  title={Membership inference on text-to-image diffusion models via conditional likelihood discrepancy},
   author={Zhai, Shengfang and Chen, Huanran and Dong, Yinpeng and Li, Jiajun and Shen, Qingni and Gao, Yansong and Su, Hang and Liu, Yang},
-  journal={arXiv preprint arXiv:2405.14800},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={74122--74146},
   year={2024}
 }
 ```
