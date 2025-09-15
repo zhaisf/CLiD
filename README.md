@@ -14,7 +14,7 @@ The code of the following paper will be released in this repository:
 2. **Performing Membership Inference**
    - Utilize the following scripts to conduct membership inference on the fine-tuned models:
      - [ ]  `mia_Loss.py` 
-     - [ ]  `mia_pfami.py`
+     - [x]  `mia_pfami.py`
      - [ ]  `mia_SEC_PIA.py`
      - [x]  `mia_CLiD_impt.py` (or `mia_CLiD_clip.py`): CLiD with the reduction methods of _Importance clipping_ and _Simply Clipping_ 
 
